@@ -14,4 +14,4 @@ Music,
 Health,
 Cooking
 
-I am still learning about everything, and i hope i will keep this will up to my last moments.
+I am still learning about everything, and i hope i will keep this will all my life.
