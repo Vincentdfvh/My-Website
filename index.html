@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    :root {
+      --bg: #fafaf7;
+      --text: #1f1f1f;
+      --muted: #5a5a5a;
+      --accent: #6b4e3d;
+      --rule: #e5e2da;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 6rem;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: normal;
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-style: italic;
+      margin-bottom: 2.5rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2rem 0;
+    }
+
+    p {
+      margin: 0 0 1.25rem;
+    }
+
+    .topics-label {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+    }
+
+    ul.topics {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.25rem;
+    }
+
+    ul.topics li {
+      color: var(--accent);
+    }
+
+    ul.topics li::before {
+      content: "·";
+      margin-right: 0.75rem;
+      color: var(--rule);
+    }
+
+    ul.topics li:first-child::before {
+      content: "";
+      margin-right: 0;
+    }
+
+    .closing {
+      color: var(--muted);
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>About me</h1>
+    <p class="subtitle">A small corner of the internet.</p>
+
+    <hr>
+
+    <p>This is a website about me.</p>
+
+    <p>
+      I share some of the works I have done in my life — school related, personal, or professional.
+      I might also include pictures I took during trips, quotes I found interesting, musical sounds
+      I heard or played, animals, people, or anything I think is beautiful, interesting, or
+      knowledge-enhancing.
+    </p>
+
+    <p class="topics-label">Typical topics I could share about:</p>
+    <ul class="topics">
+      <li>Philosophy</li>
+      <li>Physics</li>
+      <li>Engineering</li>
+      <li>Neuroscience</li>
+      <li>Nature</li>
+      <li>Music</li>
+      <li>Health</li>
+      <li>Cooking</li>
+    </ul>
+
+    <p class="closing">
+      I am still learning about everything, and I hope I will keep this all my life.
+    </p>
+  </main>
+</body>
+</html>
